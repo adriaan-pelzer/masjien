@@ -4,8 +4,8 @@
 <title><?php bloginfo ('name'); ?></title>
 <meta property="og:title" content="masjien"/>
 <meta property="og:type" content="musician"/>
-<meta property="og:image" content="http://masjien.net/images/masjien_logo.png"/>
-<meta property="og:url" content="http://masjien.net"/>
+<meta property="og:image" content="<?php bloginfo ('template_url'); ?>/images/masjien_logo.png"/>
+<meta property="og:url" content="<?php bloginfo ('url'); ?>"/>
 <meta property="og:site_name" content="masjien midnight theatre"/>
 <meta property="fb:admins" content="544207149"/>
 <link rel="stylesheet" href="<?php bloginfo ('stylesheet_url'); ?>" type="text/css" media="screen" />
@@ -61,7 +61,7 @@ function loadTitle () {
 
 function loadArt () {
     $("#art").fadeOut ("slow", function () {
-        $("#art").load ("art.php", function() {
+        $("#art").load ("<?php bloginfo ('template_url'); ?>/art.php", function() {
             $("#art").fadeIn ("slow", function () {
                 setTimeout ("loadArt();", 5000 + Math.floor (Math.random () * 5000));
             });

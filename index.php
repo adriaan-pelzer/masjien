@@ -5,7 +5,7 @@
 <?php
 if (!isset($_GET['live'])) {
 ?>
-<img src="images/noise.gif" height="394" />
+<img src="<?php bloginfo ('template_url'); ?>/images/noise.gif" height="394" />
 <?php
 } else {
 ?>
@@ -15,7 +15,7 @@ if (!isset($_GET['live'])) {
 ?>
 </div>
 <div id="video_frame">
-<img src="images/tv.png" />
+<img src="<?php bloginfo ('template_url'); ?>/images/tv.png" />
 </div>
 </div>
 <div id="bottom_left">
@@ -26,11 +26,9 @@ if (!isset($_GET['live'])) {
 <span id="soc_tw">
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="_masjien_">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </span>
-<!--img src="polygons.php?w=203&h=134&seed=124" /-->
-<!--img width="326px;" height="134px;" src="images/scope.png" /-->
 </div>
 <div id="art">
-<img src="polygons.php?w=203&h=134" />
+<img src="<?php bloginfo ('template_url'); ?>/polygons.php?w=203&h=134" />
 </div>
 </div>
 </div>
