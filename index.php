@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div id="left_column">
 <div id="video">
 <div id="video_back">
