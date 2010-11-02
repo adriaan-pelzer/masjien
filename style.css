@@ -1,0 +1,18 @@
+body { background: #000; color: #fff; font-family: courier; width: 960px; margin-bottom: 20px; }
+nav ul li { list-style-type: none; float: left; margin-right: 40px; }
+nav ul li a { text-decoration: none; color: #fff; }
+#seperator { clear: both; }
+#left_column { width: 569px; margin-right: 40px; margin-top: 40px; float: left; margin-bottom: 40px; }
+#right_column { width: 351px; margin-top: 40px; float: left; margin-bottom: 40px; }
+#video, #twitter_display { height: 351px; overflow: hidden; }
+#video_back { position: relative; top: -43px; }
+#video_frame { position: relative; top: -394px; z-index: 10; }
+#bottom_left, #twitter_input { margin-top: 40px; }
+#scope { height: 134px; width: 326px; margin-right: 20px; float: left; }
+#soc_fb { margin-left: 40px; margin-top: 40px; }
+#soc_tw { margin-left: 20px; position: relative; right: -100px; top: -66px; }
+#art { height: 134px; width: 203px; float: left; }
+#twitter_input { height: 134px; }
+.twtr-hd { display: none; }
+.twtr-tweet { font-family: courier; font-size: 1.2em; }
+.twtr-ft { display: none; }
